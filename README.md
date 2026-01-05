@@ -15,6 +15,7 @@ Desarrolladores Junior: Como ejemplo práctico de integración entre APIs de cor
 👁️ *Flujo de trabajo del bot*
 
 graph TD
+    
     %% Nodos (Pasos del proceso)
     User([👤 Usuario / Proveedor]) -->|Envía Factura PDF/ZIP| Email[📧 Bandeja de Entrada]
     Email -->|El Bot detecta correo| Check{❓ ¿Tiene Adjuntos?}
@@ -158,3 +159,4 @@ Volumen: Este bot usa la versión gratuita de Gemini Flash. Tiene límites de ve
 
 📞 Soporte
 Si encuentras un error crítico ("ERROR NO CONTROLADO" en los logs), por favor contacta al equipo de desarrollo con una copia del archivo invoice_bot_errors.log para diagnóstico.
+
