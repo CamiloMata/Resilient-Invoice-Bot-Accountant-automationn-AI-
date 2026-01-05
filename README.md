@@ -33,6 +33,18 @@ graph TD
     style AI fill:#bbf,stroke:#333,stroke-width:2px
     style Excel fill:#bfb,stroke:#333,stroke-width:2px
 
+    +-----------------+       +--------------------+       +------------------+
+|   PASO 1:       |       |     PASO 2:        |       |    PASO 3:       |
+|   ENTRADA       |       |     PROCESO        |       |    SALIDA        |
++-----------------+       +--------------------+       +------------------+
+|                 |       |                    |       |                  |
+|  [ Proveedor ]  |       |   [ Bot de IA ]    |       |   [ Reporte ]    |
+|        |        |       |         |          |       |        |         |
+|  Envia Correo   +-----> |  Lee y Analiza     +-----> |  Guarda en Excel |
+|  con Factura    |       |  con Google Gemini |       |  Automáticamente |
+|                 |       |                    |       |                  |
++-----------------+       +--------------------+       +------------------+
+
 ⚙️ *¿Cómo Funciona? (Visión General)*
 Imagina un empleado infatigable que nunca duerme. El proceso que sigue el bot es el siguiente:
 
@@ -159,6 +171,7 @@ Volumen: Este bot usa la versión gratuita de Gemini Flash. Tiene límites de ve
 
 📞 Soporte
 Si encuentras un error crítico ("ERROR NO CONTROLADO" en los logs), por favor contacta al equipo de desarrollo con una copia del archivo invoice_bot_errors.log para diagnóstico.
+
 
 
 
