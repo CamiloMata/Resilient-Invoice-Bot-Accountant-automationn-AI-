@@ -124,7 +124,7 @@ Crea un archivo llamado data.env en la misma carpeta del script y complétalo co
 EMAIL_USER=tu_correo@gmail.com
 **¡OJO! No es tu contraseña normal, es una "Contraseña de Aplicación" de 16 caracteres**
 EMAIL_PASS=xxxx xxxx xxxx xxxx 
-GEMINI_API_KEY=AIzaSyD... (Tu llave de API de Google) /r
+GEMINI_API_KEY=AIzaSyD... (Tu llave de API de Google) 
 EXCEL_FILE_PATH=C:/Ruta/A/Tu/Archivo/Facturas.xlsx
 EXCEL_SHEET_NAME=NombreDeLaPestaña
 
@@ -159,6 +159,7 @@ Volumen: Este bot usa la versión gratuita de Gemini Flash. Tiene límites de ve
 
 📞 Soporte
 Si encuentras un error crítico ("ERROR NO CONTROLADO" en los logs), por favor contacta al equipo de desarrollo con una copia del archivo invoice_bot_errors.log para diagnóstico.
+
 
 
 
